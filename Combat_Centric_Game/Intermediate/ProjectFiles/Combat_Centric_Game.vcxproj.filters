@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Combat_Centric_Game.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Combat_Centric_Game.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Combat_Centric_GameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Combat_Centric_Game">
+      <UniqueIdentifier>{F81DE245-4338-3A81-8229-5A728E8FB249}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Combat_Centric_Game\Combat_Centric_Game.Build.cs">
+      <Filter>Source\Combat_Centric_Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Combat_Centric_Game.cpp">
+      <Filter>Source\Combat_Centric_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Combat_Centric_Game.h">
+      <Filter>Source\Combat_Centric_Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

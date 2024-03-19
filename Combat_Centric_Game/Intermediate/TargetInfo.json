@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Combat_Centric_Game",
+			"Path": "..\\Source\\Combat_Centric_Game.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Combat_Centric_GameEditor",
+			"Path": "..\\Source\\Combat_Centric_GameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
