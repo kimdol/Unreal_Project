@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Combat_Centric_GameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Combat_Centric_Game.h">
       <Filter>Source\Combat_Centric_Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Combat_Centric_Game\Private">
+      <UniqueIdentifier>{986E72CB-D365-328F-A4CF-1E6B11CF1D9D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\ScriptCharacter.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Combat_Centric_Game\Public">
+      <UniqueIdentifier>{46B0F7BE-72E3-3F64-AC2B-58FB99B3B209}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\ScriptCharacter.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

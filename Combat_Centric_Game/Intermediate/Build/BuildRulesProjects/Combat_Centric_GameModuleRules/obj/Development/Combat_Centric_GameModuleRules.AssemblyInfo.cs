@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Combat_Centric_GameModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+756aed5a8679359e33cd893cfca6974d499bdd7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86413270e6d03ce2761e352853b1688f4204d6fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Combat_Centric_GameModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Combat_Centric_GameModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
