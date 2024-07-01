@@ -109,6 +109,7 @@
     <None Include="..\..\Combat_Centric_Game.uproject"/>
     <None Include="..\..\Source\Combat_Centric_Game.Target.cs"/>
     <None Include="..\..\Source\Combat_Centric_GameEditor.Target.cs"/>
+    <None Include="..\..\.editorconfig"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
@@ -121,11 +122,23 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Combat_Centric_Game.h"/>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\FSM.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\PoolingObject.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\ScriptCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\FSM.h"/>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\PoolingObject.h"/>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\ScriptCharacter.h"/>
   </ItemGroup>
   <PropertyGroup>

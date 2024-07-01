@@ -3,6 +3,29 @@
 
 #include "ScriptCharacter.h"
 
+void AScriptCharacter::SampleFunc()
+{
+    // auto newObject = NewObject<AScriptCharacter>();
+    //auto newObject = GetWorld()->SpawnActor<AScriptCharacter>(
+    //    _samepleScriptCharacterClass.Get(),
+    //    GetActorLocation() + GetActorForwardVector() * 2,
+    //    GetActorRotation()
+    //);
+
+    DFunc.ExecuteIfBound();
+    if (DynamicSample.IsBound())
+    {
+        DynamicSample.Execute(100);
+    }
+
+	GEngine->AddOnScreenDebugMessage(-1, 15, FColor::Green, TEXT("Call Sample Function!"));
+}
+
+void AScriptCharacter::OnlyScriptFunction()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15, FColor::Green, TEXT("This is Only Script Function!"));
+}
+
 // Sets default values
 AScriptCharacter::AScriptCharacter()
 {

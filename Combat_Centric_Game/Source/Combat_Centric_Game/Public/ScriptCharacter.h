@@ -4,12 +4,32 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "PoolingObject.h"
 #include "ScriptCharacter.generated.h"
 
+DECLARE_DELEGATE(DFuncSample);
+DECLARE_DYNAMIC_DELEGATE_OneParam(FDDynamicSample, int32, intvalue);
+
 UCLASS()
-class COMBAT_CENTRIC_GAME_API AScriptCharacter : public ACharacter
+class COMBAT_CENTRIC_GAME_API AScriptCharacter : public ACharacter, public IPoolingObject
 {
 	GENERATED_BODY()
+
+public:
+    UPROPERTY(BlueprintReadWrite)
+    float _sampleFloatValue;
+
+	UFUNCTION(BlueprintCallable)
+	void SampleFunc();
+
+	void OnlyScriptFunction();
+
+    UPROPERTY(EditDefaultsOnly)
+    TSubclassOf<AScriptCharacter> _samepleScriptCharacterClass;
+
+    DFuncSample DFunc;
+    UPROPERTY(BlueprintReadWrite)
+    FDDynamicSample DynamicSample;
 
 public:
 	// Sets default values for this character's properties

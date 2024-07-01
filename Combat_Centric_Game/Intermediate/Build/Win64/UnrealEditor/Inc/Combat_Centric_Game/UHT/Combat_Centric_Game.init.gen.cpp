@@ -7,23 +7,27 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCombat_Centric_Game_init() {}
+	COMBAT_CENTRIC_GAME_API UFunction* Z_Construct_UDelegateFunction_Combat_Centric_Game_DDynamicSample__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_Combat_Centric_Game;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_Combat_Centric_Game()
 	{
 		if (!Z_Registration_Info_UPackage__Script_Combat_Centric_Game.OuterSingleton)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Combat_Centric_Game_DDynamicSample__DelegateSignature,
+			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Combat_Centric_Game",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x63E88C33,
-				0x13F84203,
+				0x0D35F9B6,
+				0x580C20B4,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Combat_Centric_Game.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Combat_Centric_Game.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Combat_Centric_Game(Z_Construct_UPackage__Script_Combat_Centric_Game, TEXT("/Script/Combat_Centric_Game"), Z_Registration_Info_UPackage__Script_Combat_Centric_Game, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x63E88C33, 0x13F84203));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Combat_Centric_Game(Z_Construct_UPackage__Script_Combat_Centric_Game, TEXT("/Script/Combat_Centric_Game"), Z_Registration_Info_UPackage__Script_Combat_Centric_Game, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0D35F9B6, 0x580C20B4));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
