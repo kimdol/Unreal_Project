@@ -25,6 +25,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -43,6 +46,21 @@
     <Filter Include="Source\Combat_Centric_Game\Private">
       <UniqueIdentifier>{986E72CB-D365-328F-A4CF-1E6B11CF1D9D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\BaseCharacter.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\BaseCharacterStatus.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\BasicAttack.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\BasicDamageCalculate.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\BCAbilitySystemComponent.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\FSM.cpp">
       <Filter>Source\Combat_Centric_Game\Private</Filter>
     </ClCompile>
@@ -55,6 +73,21 @@
     <Filter Include="Source\Combat_Centric_Game\Public">
       <UniqueIdentifier>{46B0F7BE-72E3-3F64-AC2B-58FB99B3B209}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BaseCharacter.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BaseCharacterStatus.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BasicAttack.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BasicDamageCalculate.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BCAbilitySystemComponent.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\FSM.h">
       <Filter>Source\Combat_Centric_Game\Public</Filter>
     </ClInclude>

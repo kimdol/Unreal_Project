@@ -4,3 +4,11 @@
 
 #include "CoreMinimal.h"
 
+UENUM(BlueprintType)
+enum class CCGProjAbilityID
+{
+    None			UMETA(DisplayName = "None"),
+    ConfirmTarget	UMETA(DisplayName = "ConfirmTarget"),
+    CancelTarget	UMETA(DisplayName = "CancelTarget"),
+};
+
