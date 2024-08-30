@@ -27,6 +27,15 @@ UAbilitySystemComponent* ABaseCharacter::GetAbilitySystemComponent() const
 
 UBaseCharacterStatus* ABaseCharacter::GetStatus() const
 {
+    if (_status)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("BaseCharacterStatus Pointer: %s"), *_status->GetName());
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("BaseCharacterStatus Pointer is null"));
+    }
+
 	return _status;
 }
 
@@ -175,7 +184,7 @@ void ABaseCharacter::BindASCInput()
 {
     if (_isBoundInput == false && GetAbilitySystemComponent() && IsValid(InputComponent))
     {
-        FTopLevelAssetPath enumPath = FTopLevelAssetPath(FName("/Script/ARProject"), FName("ARProjAbilityID"));
+        FTopLevelAssetPath enumPath = FTopLevelAssetPath(FName("/Script/Combat_Centric_Game"), FName("CCGProjAbilityID"));
         GetAbilitySystemComponent()->BindAbilityActivationToInputComponent(
             InputComponent,
             FGameplayAbilityInputBinds(

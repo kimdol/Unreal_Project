@@ -61,7 +61,16 @@
     <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\BCAbilitySystemComponent.cpp">
       <Filter>Source\Combat_Centric_Game\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\CCGProjAssetManager.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\CCGProjPlayerController.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\FSM.cpp">
+      <Filter>Source\Combat_Centric_Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\PickupStaticData.cpp">
       <Filter>Source\Combat_Centric_Game\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\PoolingObject.cpp">
@@ -88,7 +97,16 @@
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BCAbilitySystemComponent.h">
       <Filter>Source\Combat_Centric_Game\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\CCGProjAssetManager.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\CCGProjPlayerController.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\FSM.h">
+      <Filter>Source\Combat_Centric_Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\PickupStaticData.h">
       <Filter>Source\Combat_Centric_Game\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\PoolingObject.h">

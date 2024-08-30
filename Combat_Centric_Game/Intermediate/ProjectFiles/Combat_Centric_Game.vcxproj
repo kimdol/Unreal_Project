@@ -148,7 +148,22 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\CCGProjAssetManager.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\CCGProjPlayerController.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\FSM.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Combat_Centric_Game\Private\PickupStaticData.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
@@ -168,7 +183,10 @@
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BasicAttack.h"/>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BasicDamageCalculate.h"/>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\BCAbilitySystemComponent.h"/>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\CCGProjAssetManager.h"/>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\CCGProjPlayerController.h"/>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\FSM.h"/>
+    <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\PickupStaticData.h"/>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\PoolingObject.h"/>
     <ClInclude Include="..\..\Source\Combat_Centric_Game\Public\ScriptCharacter.h"/>
   </ItemGroup>
