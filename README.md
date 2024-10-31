@@ -40,7 +40,7 @@
 ### 핵심 코드 1: 마법 전투병 AI 비헤이비어 트리와 인바이런먼트 쿼리
 
 <img src="Images/XBotMageAI.png" alt="XBotMageAI_01" style="width: 100%; height: 100%;">
-<img src="Images/EQS_FindRangeAttackPosition.png" alt="EQS_FindRangeAttackPosition" style="width: 70%; height: 70%;">
+<img src="Images/EQS_FindRangeAttackPosition.png" alt="EQS_FindRangeAttackPosition" style="width: 50%; height: 50%;">
 
 - AI가 플레이어를 조준하기 위해 이동하는 과정에서 인바이런먼트 쿼리 시스템(EQS)을 활용해 최적의 사격 위치를 찾습니다. EQS의 Grid 노드, Trace, Distance 테스트를 통해 플레이어를 공격할 수 있는 유리한 위치를 탐색하고, 이를 통해 AI의 전략적 이동을 구현했습니다. 이 방식으로 AI는 단순히 플레이어를 추적하는 것이 아닌, 공격의 효율성을 극대화할 수 있는 위치로 이동하도록 설정되었습니다.
 
