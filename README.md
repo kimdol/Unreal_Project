@@ -11,7 +11,7 @@
 
 ### 핵심 코드 1: 정찰병 AI 비헤이비어 트리
 
-<img src="Images/XBotAI.png" alt="XBotAI_01" style="width: 200%; height: 200%;">
+<img src="Images/XBotAI.png" alt="XBotAI_01" style="width: 150%; height: 150%;">
 
 - 초기 구현은 단순한 유한 상태 머신(FSM)을 이용했지만, 상태 전환 및 확장이 어려웠습니다. 
 이를 보완하기 위해 비헤이비어 트리를 사용했습니다. 비헤이비어 트리는 상태를 유연하게 제어할 수 있도록 
@@ -39,8 +39,8 @@
 
 ### 핵심 코드 1: 마법 전투병 AI 비헤이비어 트리와 인바이런먼트 쿼리
 
-<img src="Images/XBotMageAI.png" alt="XBotMageAI_01" style="width: 200%; height: 200%;">
-<img src="Images/EQS_FindRangeAttackPosition.png" alt="EQS_FindRangeAttackPosition" style="width: 200%; height: 200%;">
+<img src="Images/XBotMageAI.png" alt="XBotMageAI_01" style="width: 150%; height: 150%;">
+<img src="Images/EQS_FindRangeAttackPosition.png" alt="EQS_FindRangeAttackPosition" style="width: 150%; height: 150%;">
 
 - AI가 플레이어를 조준하기 위해 이동하는 과정에서 인바이런먼트 쿼리 시스템(EQS)을 활용해 최적의 사격 위치를 찾습니다. EQS의 Grid 노드, Trace, Distance 테스트를 통해 플레이어를 공격할 수 있는 유리한 위치를 탐색하고, 이를 통해 AI의 전략적 이동을 구현했습니다. 이 방식으로 AI는 단순히 플레이어를 추적하는 것이 아닌, 공격의 효율성을 극대화할 수 있는 위치로 이동하도록 설정되었습니다.
 
@@ -126,6 +126,6 @@ UGameplayEffectExecutionCalculation의 Execute_Implementation 함수가 호출�
 
 ### 핵심 코드 1: 디졸브 효과
 
-<img src="Images/DissolveEffect.png" alt="DissolveEffect" style="width: 200%; height: 200%;">
+<img src="Images/DissolveEffect.png" alt="DissolveEffect" style="width: 150%; height: 150%;">
 
 - 0과 1 사이의 랜덤 값을 가지는 노이즈를 사용하여 시간이 지남에 따라 특정 임계값 이상의 픽셀들이 점진적으로 사라지도록 합니다. 여기서 값이 1에 가까운 픽셀은 먼저 사라지고, 0에 가까운 픽셀은 나중에 사라지게 됩니다. 임계값 근처에 위치한 픽셀들은 '사라지는 경계'로 간주되며, 이 경계의 범위를 설정하면 해당 범위 내에 있는 픽셀에 색상을 부여하여 사라지기 직전의 구간을 시각적으로 강조할 수 있습니다. 경계 범위가 클수록 사라진 영역의 테두리가 두껍게 표현되며, 범위가 작을수록 더 섬세하고 얇은 테두리가 형성됩니다. 이를 통해 픽셀이 사라지는 과정에서 명확한 시각적 구분선을 만들 수 있습니다.
