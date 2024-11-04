@@ -1,9 +1,3 @@
-Sci_FI_Valley_Village/
-FXVarietyPack/
-Megascans/
-Asian_town/
-Videos/
-
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -78,3 +72,14 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+Sci_FI_Valley_Village/
+FXVarietyPack/
+Megascans/
+Asian_town/
+Videos/
+Binaries/
+Saved/
+DerivedDataCache/
+Intermediate/
