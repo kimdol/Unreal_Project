@@ -129,3 +129,22 @@ UGameplayEffectExecutionCalculation의 Execute_Implementation 함수가 호출�
 <img src="Images/DissolveEffect.png" alt="DissolveEffect" style="width: 100%; height: 100%;">
 
 - 0과 1 사이의 랜덤 값을 가지는 노이즈를 사용하여 시간이 지남에 따라 픽셀들이 점진적으로 사라지도록 합니다. 여기서 값이 1에 가까운 픽셀은 먼저 사라지고, 0에 가까운 픽셀은 나중에 사라지게 됩니다. 임계값 근처에 위치한 픽셀들은 '사라지는 경계'로 간주되며, 이 경계의 범위를 설정하면 해당 범위 내에 있는 픽셀에 색상을 부여하여 사라지기 직전의 구간을 시각적으로 강조할 수 있습니다. 경계 범위가 클수록 사라진 영역의 테두리가 두껍게 표현되며, 범위가 작을수록 더 섬세하고 얇은 테두리가 형성됩니다. 이를 통해 픽셀이 사라지는 과정에서 명확한 시각적 구분선을 만들 수 있습니다.
+
+
+
+## 기능명 : NPC AI
+### 기능 설명
+이 기능은 플레이어 입력과 AI 역할 정의를 결합하여 Gemini API 요청을 구성하는 기능입니다.
+
+
+[Combat-Centric Game of Unreal 5.3: NPC AI](https://www.youtube.com/watch?v=_4IKRpVNUd8)
+
+### 핵심 코드 1: 프롬프트
+
+
+<img src="Images/NPC_AI.png" alt="NPC_AI" style="width: 100%; height: 100%;">
+
+- 이 Append 노드는 플레이어의 동적인 입력(C)과 미리 정의된 AI의 역할 및 응답 규칙(B)을 Gemini API가 처리할 수 있는 유효한 JSON 형식의 프롬프트로 결합하는 역할을 합니다. 이를 통해 게임 내 NPC는 설정된 캐릭터의 특징과 대화 규칙에 맞춰 플레이어의 입력에 대해 동적이고 지능적으로 반응할 수 있게 됩니다. 
+
+
+
