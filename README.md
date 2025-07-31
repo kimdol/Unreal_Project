@@ -134,7 +134,7 @@ UGameplayEffectExecutionCalculation의 Execute_Implementation 함수가 호출�
 
 ## 기능명 : NPC AI
 ### 기능 설명
-이 기능은 플레이어 입력과 AI 역할 정의를 결합하여 Gemini API 요청을 구성하는 기능입니다.
+장난기 많은 NPC입니다.
 
 
 [Combat-Centric Game of Unreal 5.3: NPC AI](https://www.youtube.com/watch?v=_4IKRpVNUd8)
